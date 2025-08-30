@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Students from "./pages/Students";
+import Faculty from "./pages/Faculty";
 import MarkAttendance from "./pages/MarkAttendance";
 import AttendanceReports from "./pages/AttendanceReports";
 import NotFound from "./pages/NotFound";
@@ -45,9 +46,9 @@ const App = () => (
                 <AttendanceReports />
               </DashboardLayout>
             } />
-            <Route path="/reports" element={
+            <Route path="/faculty" element={
               <DashboardLayout>
-                <AttendanceReports />
+                <Faculty />
               </DashboardLayout>
             } />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

@@ -60,8 +60,8 @@ export default function Login() {
 
   const demoCredentials = [
     { role: 'admin', email: 'admin@school.edu', name: 'Admin User' },
-    { role: 'faculty', email: 'sarah.johnson@school.edu', name: 'Dr. Sarah Johnson' },
-    { role: 'student', email: 'john.smith@student.edu', name: 'John Smith' }
+    { role: 'faculty', email: 'rajesh.barik@school.edu', name: 'Dr. Rajesh Barik' },
+    { role: 'student', email: 'mohit.tomar@student.edu', name: 'Mohit Tomar' }
   ];
 
   return (

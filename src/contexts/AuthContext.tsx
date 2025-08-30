@@ -28,15 +28,15 @@ const mockUsers: User[] = [
   },
   {
     id: '2',
-    name: 'Dr. Sarah Johnson',
-    email: 'sarah.johnson@school.edu',
+    name: 'Dr. Rajesh Barik',
+    email: 'rajesh.barik@school.edu',
     role: 'faculty',
     department: 'Computer Science'
   },
   {
     id: '3',
-    name: 'John Smith',
-    email: 'john.smith@student.edu',
+    name: 'Mohit Tomar',
+    email: 'mohit.tomar@student.edu',
     role: 'student',
     department: 'Computer Science',
     rollNo: 'CS2021001'

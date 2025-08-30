@@ -57,9 +57,9 @@ export default function Students() {
   const [students, setStudents] = useState<Student[]>([
     {
       id: '1',
-      name: 'John Smith',
+      name: 'Mohit Tomar',
       rollNo: 'CS2021001',
-      email: 'john.smith@student.edu',
+      email: 'mohit.tomar@student.edu',
       phone: '+1 234 567 8901',
       department: 'Computer Science',
       batch: '2021-2025',
@@ -197,7 +197,7 @@ export default function Students() {
                     id="name"
                     value={newStudent.name}
                     onChange={(e) => setNewStudent({...newStudent, name: e.target.value})}
-                    placeholder="John Smith"
+                    placeholder="Mohit Tomar"
                   />
                 </div>
                 <div className="space-y-2">
